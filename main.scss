@@ -1,0 +1,22 @@
+@import 'variables.scss';
+@import 'components/nav.scss';
+
+body {
+	font-family: $font-body;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+#main-content {
+	padding: 1.5rem 2rem;
+
+	h1 {
+		font-family: $font-heading;
+		color: $color-heading;
+
+		&:first-of-type {
+			border-bottom: 1px solid $color-heading-border;
+		}
+	}
+}

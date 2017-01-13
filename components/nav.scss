@@ -1,0 +1,9 @@
+nav.navbar {
+	height: $navbar-height;
+	line-height: $navbar-height;
+
+	display: flex;
+	justify-content: space-around;
+
+	background-color: $color-orange;
+}
